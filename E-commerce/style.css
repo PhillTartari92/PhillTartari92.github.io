@@ -1,0 +1,105 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+
+.background-image{
+    background-image: url(img/space3.jpg); 
+    background-size: cover ;
+    
+}
+/* NAV*/
+ul {
+    display: flex;
+    justify-content: space-around;  
+    
+      
+}
+
+ ul li{
+    text-align: center;
+    height: 35px;
+    width: 100%;
+    background-color: rgb(232, 232, 239);
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    display: inline;  
+    padding-top: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+/* SECTION PHOTOS*/
+
+
+.container{
+    width: 70%;
+    margin-left: 120px;
+    
+}
+.photos{
+   height: 350px;
+   border: 1px solid black;
+   display: inline;
+   margin-right: 10px;
+   width: 100%;
+   border-radius: 10%;
+}
+.photos img{
+    border-radius: 10% 10% 0 0 ;
+}
+
+.photos p{
+    overflow: auto;
+    width: 100%;
+    margin-left: 5px;
+    color: white;
+ 
+}
+.photos a {
+    display: inline;
+    
+}
+.photos a button{
+    height: 30px;
+    width: 45%;
+    align-items: center;
+    border-radius: 20%;
+    margin-left: 70px;
+    
+
+}
+.container1{
+    display: flex;
+    margin: 25px 0 0 150px; 
+      
+}
+
+.container1 div img{
+    height: 200px;
+    width : 100% ;   
+}
+
+.container2{
+    display: flex;
+    margin: 25px 0 0 150px; 
+      
+}
+
+.container2 div img{
+    height: 200px;
+    width : 100%   
+}
+/*FORMULAIRE INCRIPTION*/
+
+.container-form{
+    height: 400px;
+    width: 40%;
+    border: 2px solid black;
+    align-items: center;
+
+}
+
+
