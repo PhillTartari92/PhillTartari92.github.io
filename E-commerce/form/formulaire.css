@@ -1,0 +1,29 @@
+/*FORMULAIRE INCRIPTION*/
+
+h1{
+    width: 100%;
+    text-align: center;
+    
+}
+form{
+    height: 500px;
+    width: 33%;
+    border: 2px solid black;
+    margin-left: 33%;
+    border-radius: 10%;
+    
+}
+
+input{
+    height: 25px;
+    width: 50%;
+    display: block;
+    margin-left: 25%;
+    padding-top: ;
+}
+
+label{
+    
+    margin-left: 25%;
+    margin-top: 30px;
+}
