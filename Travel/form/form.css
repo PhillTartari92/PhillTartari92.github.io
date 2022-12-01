@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: none;
+}
+.color{
+    background-image: url(../img/maldivesjpg.jpg);
+    background-size: cover;
+
+    height: 1500px;
+}
+
+/*LOGIN*/
+
+h1{
+    text-align: center;
+    padding-top: 10%;
+    font-size: 52px;
+}
+.container{
+    background-color: rgb(180, 209, 235);
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    width: 33%;
+    /* margin:20vh 0 0 33vw;   */
+    box-shadow: 6px 6px 6px;
+    border-radius: 10px;
+    position: relative;
+}
+/* label{
+    text-align: center;
+    display: flex;
+    margin-left: 12vw;
+   
+} */
+
+/* input{
+    text-align: center;
+    display: flex;
+    width: 10vw;
+    margin: 0 0 3vh 12vw;
+   border-radius: 10px;
+} */
+button{
+    width: 6vw;
+    margin: 2vh 0 0 1vw;
+    border-radius: 5px;
+}
