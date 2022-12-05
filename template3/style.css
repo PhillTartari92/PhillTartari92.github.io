@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*********************
+         NAV
+**********************/
+.background-img {
+  background-image: url(Assets/img/laptop.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10vw;
+  padding-top: 4vh;
+}
+
+nav ul li {
+  list-style-type: none;
+  text-align: center;
+  margin-right: 6vh;
+  color: white;
+  font-size: 25px;
+}
+
+.logo img {
+  margin: 10vh 0 0 5vw;
+  height: 60px;
+}
+
+/******************
+      SECTION
+******************/
+/******************
+    FOOTER
+******************/
+footer {
+  height: 20vh;
+  width: 100%;
+  background-color: rgba(46, 41, 41, 0.358);
+}
+
+footer .icons ul {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 15vw;
+  padding-top: 3vh;
+  list-style-type: none;
+}
+
+footer .mots ul {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-around;
+  width: 25%;
+  margin-left: 65vw;
+  padding-top: 10vh;
+  list-style-type: none;
+}
+
+footer .mots ul li {
+  margin-left: 1vw;
+}
+
+footer .icons ul li img {
+  height: 30px;
+  width: 5vw;
+}/*# sourceMappingURL=style.css.map */
