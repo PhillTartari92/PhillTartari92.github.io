@@ -304,7 +304,7 @@ footer {
 /********************
      TABLES
 ********************/
-table {
+.table1 {
   border: 3px solid black;
   text-align: center;
   width: 50%;
@@ -323,4 +323,21 @@ td img {
   height: 100px;
   width: 100%;
   display: flex;
+}
+
+.table2 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: 2vh 0 0 25vw;
+}
+
+.table2 table {
+  border: 3px solid black;
+  width: 50%;
+}
+
+summary:hover {
+  color: red;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
