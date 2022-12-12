@@ -28,7 +28,7 @@ nav ul a {
     text-decoration: none;    
 }
 
-div.background-img{
+.background-img{
     height: 100vh;
     background-image: url(img/nature.jpg);
     background-size: cover;
@@ -79,7 +79,7 @@ div.background-img{
 
 /*CONTENT*/
 .background-content{
-    height: 106vh;
+    height: ;
     background-image: url(img/nature.jpg);
     background-size: cover;
     background-position: center;
@@ -96,24 +96,30 @@ div.background-img{
 }
 .container-content h2{
     font-size: 25px;
-    margin: 7vh 0 0 37vw;
+    margin-top: 7vh;
     color: white;
 }
 .container-content h3{
     color: white;
     text-align: center;
 }
-.container-content iframe{
-    margin-left: 37vw;
-}
+
 .container-content p{
     text-align: center;
     color: white;
+}
+
+.bresil{
+    text-align: center;
+}
+.india{
+    text-align: center;
 }
 /*CONTENT PHOTO*/
 
 .content-photo{
     display: flex;
+    justify-content: space-around;
     margin-top: 30px;
     color: white;
       

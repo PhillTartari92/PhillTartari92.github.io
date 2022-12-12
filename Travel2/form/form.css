@@ -11,6 +11,10 @@
   height: 100vh;
 }
 
+.container h1 img {
+  height: 70px;
+}
+
 /********************
 LOGIN
 *********************/
@@ -72,4 +76,13 @@ FORMULAIRE INSCRIPTION
 
 .background-form label {
   color: white;
+}
+
+.background-form input {
+  height: 4vh;
+}
+
+.background-form h1 img {
+  margin-top: 7vh;
+  height: 80px;
 }/*# sourceMappingURL=form.css.map */
