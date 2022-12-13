@@ -2,10 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    @font-face {
+      font-family:Lato;
+      src: url(Assets/fonts/Lato-Black.ttf);
+    }
   }
   
   body {
     height: 100vh;
+    font-family: Lato;
   }
   a{
     text-decoration: none;
@@ -33,7 +38,7 @@
     margin-right: 3vw;
     color: white;
     font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
   
   }
   /******************
@@ -64,48 +69,29 @@
   /******************
         2EME LI
   ******************/
-  .button2 {
-    border-radius: 15px;
+  .button2:hover {
+    padding: 1vh 2vw;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: gray;
     background-color: white;
     border: none;
-    color: gray;
-    text-align: center;
-    font-size: 20px;
-    height: 5vh;
-    padding: 1vh 2vw;
-    transition: all 0.5s;
-    cursor: pointer;
+    border-radius: 15px;
     box-shadow: 0 9px #999;
-    /*   */
+    height: 5vh;
+    
+  }
+  .button2 li:hover { 
+      background-color: #666;
+      border-width: 1px;
+      display: block;
+      height: 28vh;
+      width: 28vw;
+      transition: width 0.5s, height 0.5s, transform 1s;
   }
   
-  .button2 span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-  
-  .button2 span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-  .button2:hover span {
-    padding-right: 25px;
-  }
-  
-  .button2:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
-  .button2 span a{
-    padding-top: 2vh;
-  }
   /******************
         3EME LI
   ******************/
@@ -182,7 +168,7 @@
     background-size:cover;
     background-position: center;
     padding: 2vh 0 2vh 0;
-    height: 650px;
+    height: 80%;
   }
   .projets h1 {
     text-align: center;
@@ -211,8 +197,9 @@
  ********************/
   .container {
     display: flex;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     justify-content: space-around;
+    // height: 10vh;
     
   } 
   .container p {
@@ -228,7 +215,7 @@
     margin-bottom: 5vh;
   }
   .photo img:hover { 
-    border-style: solid;
+    // border-style: solid;
     border-width: 1px;
     display: block;
     height: 28vh;
@@ -244,6 +231,7 @@
   }
   .photo {
     text-align: center;
+    height: 30vh;
   }
   /******************
   SECTION MEDIAS 
@@ -251,7 +239,7 @@
   .medias {
     display: flex;
     flex-wrap: wrap;
-    height: 300px;
+    height: 80vh;
     text-align: center;
     justify-content: space-around;
     margin-top: 2vh;
@@ -270,27 +258,34 @@
     background-image: url(Assets/img/clair.jpg);
     background-size: cover;
     background-position: center;
-    height: auto;
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 2vh;
     
   }
- .footer-container{
-    width: 100%;
-    height: 18vh;
+  footer ul{
     display: flex;
-    text-align: center;
-    padding-top: 5vh;
+    margin: 6vh 0 0 2vw;
+  
+  }
+  footer ul img{
+    height: 18px;
     
- }
- .footer-container ul{
-    width: 50%;
-    justify-content: center;
-    display: flex;
-    
-    
- }
- .footer-container ul li{
+  }
+ footer ul li{
     list-style-type: none; 
     margin: 1vh 1vw; 
+ }
+ summary{
+  height: 1px;
+ }
+ .details{
+  display: inline-block;
+ }
+ .details ul li{
+  font-size: 24px;
  }
  /********************
      TABLES
@@ -309,9 +304,7 @@ th{
 
 td{
   border: 1px solid black;
-
 }
-
 td img{
   height: 100px;
   width: 100%;
