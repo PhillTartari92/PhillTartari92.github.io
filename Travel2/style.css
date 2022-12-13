@@ -76,15 +76,14 @@ nav ul a {
 
 .search-bar a {
   text-decoration: none;
-  padding: 5px;
-  border-radius: 20px;
+  padding: 7px;
+  border-radius: 10px;
   opacity: 0.7;
   background-color: white;
 }
 
 /*CONTENT*/
 .background-content {
-  height: auto;
   background-image: url(img/nature.jpg);
   background-size: cover;
   background-position: center;
@@ -125,7 +124,9 @@ nav ul a {
   text-align: center;
 }
 
-/*CONTENT PHOTO*/
+/**********************
+    CONTENT PHOTO
+**********************/
 .content-photo {
   display: flex;
   justify-content: space-around;
@@ -160,10 +161,13 @@ nav ul a {
   color: black;
 }
 
-/*TABELAU*/
+/********************
+      TABLEAU
+*********************/
 .background-tableau {
   background-image: url(img/iceland.jpg);
   background-size: cover;
+  height: 120vh;
 }
 
 table {
@@ -194,6 +198,11 @@ tbody tr td img {
 
 .table2 {
   margin: 10vh 0 10vh 0;
+}
+
+summary {
+  text-align: center;
+  color: white;
 }
 
 /*LISTE*/
@@ -227,4 +236,8 @@ tbody tr td img {
   padding-left: 47vw;
   color: white;
   font-size: 24px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/***********************
+     FOOTER
+***********************//*# sourceMappingURL=style.css.map */
