@@ -44,7 +44,9 @@ nav ul a {
   color: white;
 }
 
-/*BODY INDEX*/
+/******************
+    BODY INDEX
+*******************/
 .affiche h3 {
   font-size: 1.2vw;
   margin: 20vh 0 0 0;
@@ -82,7 +84,9 @@ nav ul a {
   background-color: white;
 }
 
-/*CONTENT*/
+/*****************
+   CONTENT
+******************/
 .background-content {
   background-image: url(img/nature.jpg);
   background-size: cover;
