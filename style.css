@@ -17,163 +17,145 @@ body {
 
 a {
   text-decoration: none;
-  color: gray;
+  color: white;
 }
 
 /*********************
          NAV
 **********************/
 .background-img {
-  background-image: url(Assets/img/clair.jpg);
-  background-size: cover;
-  background-position: center;
+  background-color: rgb(20, 37, 44);
 }
 
 nav ul {
   display: flex;
-  justify-content: flex-end;
-  margin-right: 10vw;
+  align-items: center;
+  width: 50%;
+  margin-left: 45vw;
   padding-top: 4vh;
 }
 
 nav ul li {
   list-style-type: none;
   text-align: center;
-  margin-right: 3vw;
+  margin-right: 2vw;
+  width: 18%;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
 }
 
-/******************
-      1ER LI
-******************/
 .button {
-  padding: 1vh 2vw;
-  font-size: 20px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: gray;
-  background-color: white;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-  height: 5vh;
+  width: 10%;
+  border-radius: 10px;
+  width: 100%;
 }
 
-.button:hover {
-  background-color: #3e8e41;
+.button a {
+  color: rgb(249, 249, 249);
+  width: 100%;
 }
 
-.button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+.btn-hover {
+  transition: 1s;
 }
 
-/******************
-      2EME LI
-******************/
-.button2:hover {
-  padding: 1vh 2vw;
-  font-size: 20px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: gray;
-  background-color: white;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-  height: 5vh;
+.btn-hover:hover {
+  transform: scale(1.2);
 }
 
-.button2 li:hover {
-  background-color: #666;
-  border-width: 1px;
-  display: block;
-  height: 28vh;
-  width: 28vw;
-  transition: width 0.5s, height 0.5s, transform 1s;
+.btn-about {
+  transition: 1s;
+  background-color: rgbargba(29, 43, 43, 255);
 }
 
-/******************
-      3EME LI
-******************/
-.button3 {
-  position: relative;
-  background-color: white;
-  border: none;
-  font-size: 20px;
-  padding: 1vh 1vw;
-  color: #FFFFFF;
-  height: 5vh;
-  text-align: center; /* Safari */
-  transition-duration: 0.4s;
-  text-decoration: none;
-  overflow: hidden;
-  cursor: pointer;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
+.btn-about:hover {
+  background-color: gray;
 }
 
-.button3:after {
-  content: "";
-  background: #90EE90;
-  display: block;
-  position: absolute;
-  padding-top: 300%;
-  padding-left: 350%;
-  margin-left: -20px !important;
-  margin-top: -120%;
-  opacity: 0;
-  transition: all 0.8s;
+.btn-portfolio {
+  border-radius: 10px;
+  height: 3vh;
 }
 
-.button3:active:after {
-  padding: 0;
-  margin: 0;
-  opacity: 1;
-  transition: 0s;
+.btn-portfolio:hover {
+  -webkit-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 
-/******************
-      4EME LI
-******************/
-.button4 {
-  background-color: white;
-  border: none;
-  color: gray;
-  text-align: center;
-  font-size: 20px;
-  padding: 1vh 2vw;
-  opacity: 1;
-  transition: 0.3s;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-  height: 5vh;
+@-webkit-keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
-.button4:hover {
-  transition: all 2s;
-  opacity: 0.2;
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.btn-videos {
+  border-radius: 10px;
+  height: 3vh;
+  margin-right: 4vh;
 }
 
+.btn-videos:hover {
+  -webkit-animation: bounce 0.6s linear;
+          animation: bounce 0.6s linear;
+}
+
+@-webkit-keyframes bounce {
+  20%, 50%, 80%, to {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  70% {
+    transform: translateY(-15px);
+  }
+  90% {
+    transform: translateY(-4px);
+  }
+}
+
+@keyframes bounce {
+  20%, 50%, 80%, to {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  70% {
+    transform: translateY(-15px);
+  }
+  90% {
+    transform: translateY(-4px);
+  }
+}
 .logo img {
   margin-left: 5vw;
-  padding-bottom: vh;
-  height: 10vh;
+  height: 8vh;
 }
 
 /******************
 SECTION PROJETS 
 ******************/
 .projets {
-  background-color: white;
+  background-image: url(Assets/img/night.jpg);
   background-size: cover;
   background-position: center;
   padding: 2vh 0 2vh 0;
   height: 80%;
+  background-color: rgb(0, 0, 0);
 }
 
 .projets h1 {
@@ -284,16 +266,12 @@ footer ul li {
   margin: 1vh 1vw;
 }
 
-summary {
-  height: 1px;
+footer details ul {
+  display: block;
 }
 
-.details {
-  display: inline-block;
-}
-
-.details ul li {
-  font-size: 24px;
+footer details ul li {
+  margin-top: -12px;
 }
 
 /********************
@@ -324,7 +302,7 @@ td img {
   display: flex;
   justify-content: space-evenly;
   width: 50%;
-  margin: 2vh 0 0 25vw;
+  margin: 5vh 0 0 25vw;
 }
 
 .table2 table {
@@ -332,7 +310,19 @@ td img {
   width: 50%;
 }
 
+summary {
+  height: 1px;
+}
+
 summary:hover {
   color: red;
   cursor: pointer;
+}
+
+.details {
+  display: inline-block;
+}
+
+.details ul li {
+  font-size: 24px;
 }/*# sourceMappingURL=style.css.map */
