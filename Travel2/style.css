@@ -1,0 +1,243 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*********************
+          NAV
+**********************/
+.navbar {
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul li {
+  display: flex;
+  color: white;
+  margin: 2vh 2vw 0 0;
+}
+
+ul li a {
+  color: white;
+}
+
+nav ul a {
+  text-decoration: none;
+}
+
+.background-img {
+  height: 100vh;
+  background-image: url(img/nature.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.travel img {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  height: 75px;
+  margin: 5vh 0 0 3vw;
+  color: white;
+}
+
+/*BODY INDEX*/
+.affiche h3 {
+  font-size: 1.2vw;
+  margin: 20vh 0 0 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.8;
+}
+
+.affiche h2 {
+  font-size: 2.5vw;
+  font-style: oblique;
+  margin: 1vh 0 0 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.search-bar input {
+  height: 5vh;
+  margin: 6vh 0 0 28vw;
+  width: 45%;
+  align-items: center;
+  border-radius: 10px;
+  opacity: 0.7;
+  box-shadow: 3px 3px 6px black;
+}
+
+.search-bar a {
+  text-decoration: none;
+  padding: 7px;
+  border-radius: 10px;
+  opacity: 0.7;
+  background-color: white;
+}
+
+/*CONTENT*/
+.background-content {
+  background-image: url(img/nature.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container-content {
+  margin: 7vh 0 5vh 0;
+}
+
+.container-content h1 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  box-shadow: 3px 3px 3px;
+}
+
+.container-content h2 {
+  font-size: 25px;
+  margin-top: 7vh;
+  color: white;
+}
+
+.container-content h3 {
+  color: white;
+  text-align: center;
+}
+
+.container-content p {
+  text-align: center;
+  color: white;
+}
+
+.bresil {
+  text-align: center;
+}
+
+.india {
+  text-align: center;
+}
+
+/**********************
+    CONTENT PHOTO
+**********************/
+.content-photo {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  color: white;
+}
+
+.content-photo .photo1 {
+  text-align: center;
+  background-color: rgb(242, 242, 245);
+  border-radius: 3px;
+  width: 20vw;
+}
+
+.content-photo .photo1 {
+  height: 30vh;
+  margin: 0 1vw 0 5vh;
+}
+
+.content-photo .photo1 h5 {
+  margin-bottom: 1vh;
+  padding-top: 1vh;
+  color: black;
+}
+
+.photo1 img {
+  width: 100%;
+  height: 10vh;
+}
+
+.content-photo p {
+  color: black;
+}
+
+/********************
+      TABLEAU
+*********************/
+.background-tableau {
+  background-image: url(img/iceland.jpg);
+  background-size: cover;
+  height: 120vh;
+}
+
+table {
+  border: 3px solid white;
+  width: 50%;
+  text-align: center;
+  margin-left: 25vw;
+}
+
+thead tr th {
+  border: 3px solid white;
+  width: 100%;
+  color: white;
+  font-size: 24px;
+}
+
+tbody tr td {
+  border: 3px solid white;
+  width: 50%;
+  color: white;
+  font-size: 20px;
+}
+
+tbody tr td img {
+  height: 5vh;
+  width: 5vw;
+}
+
+.table2 {
+  margin: 10vh 0 10vh 0;
+}
+
+summary {
+  text-align: center;
+  color: white;
+}
+
+/*LISTE*/
+.background-liste {
+  background-image: url(img/monde.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.liste1 h1 {
+  margin: 2vh 0 2vh 0;
+  color: white;
+  text-align: center;
+}
+
+.liste1 ol {
+  width: 100%;
+  padding-left: 48vw;
+  color: white;
+  font-size: 24px;
+}
+
+.liste2 h1 {
+  margin-top: 10vh;
+  color: white;
+  text-align: center;
+}
+
+.liste2 ul {
+  width: 100%;
+  padding-left: 47vw;
+  color: white;
+  font-size: 24px;
+}
+
+/***********************
+     FOOTER
+***********************//*# sourceMappingURL=style.css.map */
